@@ -24,13 +24,13 @@ repository               : "shaileshdahal/shaileshdahal.github.io"
 author:
   # Biographic information
   avatar           : "2024_02_21_Shailesh_Dahal_001.JPG"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Shailesh Dahal"
+  pronouns         : "he/his"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  location         : "Iowa City, IA"
+  employer         : "University of Iowa"
+  uri              : "https://shaileshdahal.github.io/"
+  email            : "shailesh-dahal@uiowa.edu" 
 
   # Academic websites
   academia         : # URL
