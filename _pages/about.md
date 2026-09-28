@@ -19,8 +19,15 @@ My research focuses on **generative models and representation learning** for bio
 
 ## Selected Publications
 
-See my [publications](/publications/) for a complete list.
+- **DiffRisk: Diffusion Representation Learning with Informative Missingness for Health Risk Prediction** — *NeurIPS 2026*
+- **SPUR-XMC: Context-Adaptive Spurious Correlation Mitigation for Extreme Multi-Label Classification of Biomedical Literature** — *EMNLP 2026*
+- **TaxoDiff: Improving Taxonomy Completion with Diffusion Guided Dynamic Negative Sampling** — *WSDM 2026*
+- **Semantic Knowledge Guided Diffusion Model for Biomedical Ontology Definition Generation** — *Journal of Healthcare Informatics Research, 2026*
+
+[View all publications →](/publications/)
 
 ## News
 
-Recent updates will appear here.
+- **2026** — *DiffRisk* accepted at **NeurIPS 2026**.
+- **2026** — *SPUR-XMC* accepted at **EMNLP 2026**.
+- **2026** — *TaxoDiff* published at **WSDM 2026**.
