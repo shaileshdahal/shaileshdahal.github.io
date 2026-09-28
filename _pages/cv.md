@@ -7,58 +7,42 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Research Profile
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+Ph.D. student in Electrical and Computer Engineering at the **University of Iowa** working on machine learning for biomedical and healthcare data, with interests in generative modeling, biomedical NLP, clinical risk prediction, incomplete multimodal data, and structured biomedical knowledge.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**University of Iowa** — Ph.D. in Electrical and Computer Engineering, 2023–Present  
+**Tribhuvan University, Institute of Engineering** — M.Sc. in Information and Communication Engineering, 2012–2014  
+**Kantipur Engineering College, Tribhuvan University** — B.E. in Electronics and Communication Engineering, 2007–2011
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Experience
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Graduate Research Assistant**, University of Iowa, 2023–Present  
+**Senior Telecom Engineer**, Nepal Telecom, 2017–2023  
+**Engineer**, Nepal Television, 2014–2017  
+**Lecturer**, Kantipur Engineering College, 2012–2014
+
+## Teaching
+
+- ECE 5450: Machine Learning — Teaching Assistant, Fall 2024 and Fall 2025
+- ECE 5995: Large Language Models — Teaching Assistant, Spring 2025
+- Kantipur Engineering College — Microprocessor, Instrumentation II, Data Communication
+
+## Awards
+
+- NSF Travel Grant for presenting work at WSDM 2026
+- Gold Medal from the President of Nepal for academic excellence in the M.Sc. program
+- Semester scholarship for seven consecutive semesters during the bachelor's degree
+
+## Skills
+
+Python · C · C++ · MATLAB · Linux
+
+## Publications
+
+<ul>{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% for post in sorted_pubs %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
